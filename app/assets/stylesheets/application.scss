@@ -1,0 +1,48 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "bootstrap/scss/bootstrap";
+
+ul {
+  list-style-type: none;
+}
+
+.banner {
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+.banner a {
+  color:black;
+}
+.banner a:hover {
+  text-decoration: none;
+  color: rgb(228, 23, 23);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container p {
+  font-size: 18px;
+}
+
+.container li {
+  font-size: 24px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 20px;
+}
+
+.footer a {
+  color: black;
+  margin: 0 30px;
+}

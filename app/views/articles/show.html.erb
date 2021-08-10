@@ -1,0 +1,10 @@
+<div class="container">
+  <h1><%= @article.title %></h1>
+  <p><%= @article.content %></p>
+</div>
+
+<div class="footer">
+  <button class="btn-primary"><%= link_to "Homepage", root_path %></button>
+  <button class="btn-primary"><%= link_to "Edit article", edit_path(@article) %></button>
+  <button class="btn-primary"><%= link_to "Delete this article", article_path(@article), method: :delete  %></button>
+</div>
